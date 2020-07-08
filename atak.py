@@ -400,7 +400,7 @@ def main():
     try:
 
         if len(sys.argv) < 2:
-            error("Hedef Belirtiniz = perl atak.pl http://targetsite.com")
+            error("Hedef Belirtiniz = python atak.py http://targetsite.com")
 
         url = sys.argv[1]
 
